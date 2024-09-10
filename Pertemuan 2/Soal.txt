@@ -1,3 +1,5 @@
+Soal No 2
+
 1. Dasar untuk Flutter
 Flutter adalah framework yang dibangun menggunakan bahasa Dart sehingga memahami bahasa pemrograman Dart
 akan membantu memahami cara kerja dan struktur dasar dari Flutter. Selain itu Dart juga digunakan untuk menulis 
@@ -10,3 +12,61 @@ akan memudahkan kustomisasi dan melakukan ekstensi
 3. Debugging dan Maintaining
 Dengan memahami Dart, maka akan lebih cepat dalam mengidentifikasi serta memperbaiki masalah
 dalam penggunaan Flutter.
+
+
+Soal No 3
+
+Kelebihan dari bahasa pemrograman Dart
+1. Productive tooling (tool untuk menganalisis kode, plugin IDE, dan ekosistem paket yang besar)
+2. Garbage Collection (menangani dealokasi memori)
+3. Type annotations (keamanan dan konsistensi dalam mengontrol semua data) 
+4. Statically typed (Menggunakan fitur type-safe dan type inference untuk menganalisis types saat runtime)
+5. Portability (bisa dikompilasi secara native ke kode ARM dan x86)
+
+Tujuan perilisan Dart 2.0
+1. Berawal pada pengembangan web untuk menggantikan JavaScript, tetapi sekarang fokus pada pengembangan mobile.
+2. Mencoba memecahkan masalah pada JavaScript (JavaScript tidak menyediakan ketahanan seperti kebanyakan bahasa pemrograman lainnya)
+3. Menawarkan performa terbaik dan alat yang lebih baik untuk proyek berskala besar
+4. Dibentuk untuk Fleksibilitas dan Ketangguhan (mempertahankan type annotations bersifat opsional dan menambahkan fitur OOP)
+
+Cara eksekusi Kode Dart
+Dart dapat dieksekusi melalui Dart Virtual Machines (VMs) atau kompilasi ke JavaScript.
+
+
+Lingkungan yang mendukung Dart harus menyediakan fitur seperti berikut
+1. Runtime systems
+2. Dart core libraries
+3. Garbage collectors
+
+Mode Eksekusi
+1. Just-In-Time (JIT) Compilation:
+    Kode Dart dikompilasi saat diperlukan (just in time).
+    Digunakan dalam Dart VM selama proses pengembangan.
+    Mendukung fitur debugging dan hot reload.
+2. Ahead-Of-Time (AOT) Compilation:
+    Kode dikompilasi sebelumnya ke kode mesin asli.
+    Menawarkan performa tinggi, tetapi tidak mendukung debugging dan hot reload.
+    Digunakan dalam aplikasi produksi.
+
+Dart dirancang untuk Object-Oriented Programming (OOP).
+1. Fitur OOP yang didukung Dart: Encapsulation, Inheritance, Composition, Abstraction, Polymorphism.
+2. Objek dibuat dari class yang berisi fields (data) dan methods (kode).
+
+Operator Dart
+1. Operator Aritmatika:
+    Dart mendukung operator aritmatika standar:
+    + untuk penjumlahan, - untuk pengurangan, * untuk perkalian, / untuk pembagian, ~/ untuk pembagian bilangan bulat, % untuk modulus.
+    Shortcut operator: +=, -=, *=, /=, ~/=.
+
+2. Operator Increment dan Decrement:
+    ++var atau var++ untuk menambah nilai 1.
+    --var atau var-- untuk mengurangi nilai 1.
+
+3. Operator Persamaan dan Relasional:
+    == untuk memeriksa kesetaraan, != untuk perbedaan.
+    Operator relasional: >, <, >=, <=.
+    Operator == membandingkan isi objek, bukan referensi.
+
+4. Operator Logika:
+    ! untuk negasi, || untuk OR, && untuk AND.
+    Operator logika bekerja pada tipe bool untuk evaluasi kondisi.
